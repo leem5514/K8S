@@ -7,7 +7,7 @@ spec:
   acme:
   # 인증서 서버 주소. 해당 서버의 리소스를 통해 인증서 발행
     server: https://acme-v02.api.letsencrypt.org/directory
-    email: helloworld@naver.com
+    email: leem5514@naver.com
     privateKeySecretRef:
       name: letsencrypt-prod
     solvers:
