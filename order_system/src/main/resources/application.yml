@@ -47,4 +47,4 @@ cloud:
     region:
       static: ap-northeast-2
     s3:
-      bucket: seho-files
+      bucket: dding-files

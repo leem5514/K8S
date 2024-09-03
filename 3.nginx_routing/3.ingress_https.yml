@@ -23,7 +23,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-service
-  namespace: sse
+  namespace: dding
 spec:
   type: ClusterIP
   ports:
@@ -95,7 +95,7 @@ spec:
     - "server.dding.shop"
     secretName: dding-com-tls
   rules:
-  - host: server.ssebao.shop
+  - host: server.dding.shop
     http:
       paths:
       - path: /product-service/(.*) 

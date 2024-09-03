@@ -9,7 +9,7 @@ kind: HorizontalPodAutoscaler
 # 어떤상황에 어떻게 늘릴지 요구사항 정의
 metadata:
   name: ordersystem-hpa
-  namespace: sse
+  namespace: dding
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
